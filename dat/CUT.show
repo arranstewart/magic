@@ -1,0 +1,15 @@
+ A user-defined connective may optionally be marked with a "cut".
+ This serves to control backtracking much as in Prolog. MaGIC will
+ not generate two models whose most significant difference is in 
+ a connective with a cut.
+
+ Thus for example, where `A' is a primitive 0-adic connective and 
+ a rule
+     A v ~A /
+ has been added, MaGIC will normally generate failures of the law 
+ of the excluded middle. However, if `A' has been marked with a cut
+ then MaGIC will generate models in which that law fails: if it 
+ fails for more than one element of a model, only the smallest such 
+ element will be reported.
+
+

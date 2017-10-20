@@ -1,0 +1,41 @@
+ 
+ Menu options:
+
+ a:  Add a pre- or user-defined axiom or rule to the logic.
+ 
+ b:  Specify a formula to fail in the matrices found.
+ 
+ c:  Define a connective.   E.g.  +  defined  ~a -> b.
+ 
+ d:  Delete either an axiom, a user-defined connective or the bad guy.
+ 
+ e:  Exit from MAGIC.
+ 
+ f:  Choose the fragment (pre-defined connectives).
+ 
+ g:  Search for matrices.
+ 
+ h:  Display this page.
+ 
+ i:  Change the output formats.
+ 
+ j:  Set a condition on which to jump out of the search.
+ 
+ k:  Re-initialise everything.
+ 
+ l:  Change your mind about your favourite logic.
+
+ m:  Display information about MaGIC (version number etc).
+
+ n:  Change number of processes (parallel version only).
+
+ o:  Re-order dyadic connectives for scope or significance purposes.
+
+ p:  Select which tables to print when matrices are found.
+
+ q:  Quit MaGIC (equivalent to e).
+
+ r:  Read a job specification from a named file.
+
+ s:  Write the current job specification to a named file.
+

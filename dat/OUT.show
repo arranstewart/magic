@@ -1,0 +1,22 @@
+
+ Output formats are as follows:
+ 
+ "Pretty":  Matrices are printed in human-readable form.
+            This is the default for tty output.  Each 
+            matrix is followed by an assignment of values
+            falsifying the "bad guy" if there is one.
+
+ "Ugly":    Matrices are printed in a standard machine-
+            readable form with -1 as break character.
+            No headings, comments, etc. are included.
+
+ "Summary": Only the numbers of matrices are printed.
+            This is useful for checking the size of a
+            job before getting a printout of matrices.
+            It runs slightly faster than "pretty" or
+            "ugly".
+
+ "None":    No matrices are printed, although the final
+            statistics are still sent to the tty.  This
+            is the default for file output.
+

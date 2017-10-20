@@ -1,0 +1,47 @@
+MaGIC (Matrix Generator for Implication Connectives) is a tool that
+produces small algebraic models of non-classical propositional logics,
+especially of the substructural sort. The logics are considered as
+Hilbert (axiom) systems. Interaction with MaGIC is through a plain
+text "terminal" window and is based on a menu. Help is available from
+the menu.
+
+Synopsis:
+  magic [-b <filename>] [-t] [-x]
+
+Options:
+
+-b <filename> runs the program in batch mode with the specified file
+  as input. The file should be one previously saved with the "Save"
+  option from a previous run of MaGIC. This allows output to be piped
+  through another program such as one of the utilities provided with
+  MaGIC.
+
+-t produces "terse" output, mainly meaning that it suppresses system
+   calls such as those that clear the window each time the menu is
+   printed.
+
+-x causes the dialogue to be in a form suitable for "xmagic", the (now
+   defunct) X Windows interface to MaGIC. It is the result of a
+   message from Gustav Meglicki to John Slaney to the effect that the
+   machine-readable I/O was "insufficiently user-hostile". Since
+   xmagic is no longer supported, this option is a mere relic.
+
+
+Installation:
+
+  The main directory containing this README should have two
+  subdirectories, one containing the program sources and the other
+  containing various data files used by MaGIC. To make, go to the src
+  directory and edit the Makefile. Only the top few lines require any
+  change - mainly it is a matter of filling in the directories where
+  the data files and the binaries are to be kept. Then "make" should
+  make the programs and "make install" should simply move them and the
+  data into the specified directories.As usual, "make clean" removes
+  the .o files and possibly other junk.
+
+
+Problems in installing or using MaGIC should be reported to the author
+  John.Slaney@anu.edu.au
+
+It is also recommended that if you install MaGIC you let us know, so
+that we can inform you of any bug fixes or updates.

@@ -1,0 +1,19 @@
+ B  Axioms 1 - 8 as for FD.
+           9.   ((A -> B) & (A -> C)) -> (A -> (B & C))
+          10.   ((A -> C) & (B -> C)) -> ((A v B) -> C)
+
+    Rules 1 - 2, 8 - 12 as for FD.
+    Rules 6 and 7 replaced by the above axioms.
+    Rules 3 - 5 replaced by:
+
+          4'.   A -> B  ==>  (C -> A) -> (C -> B)
+          5'.   A -> B  ==>  (B -> C) -> (A -> C)
+
+ DW is B with rule 8 replaced by the axiom form:
+
+    Axiom 11.   (A -> ~B) -> (B -> ~A)
+
+ TW is DW with rules 4' and 5' replaced by the axiom forms:
+
+    Axiom 12.   (A -> B) -> ((C -> A) -> (C -> B))
+          13.   (A -> B) -> ((B -> C) -> (A -> C))

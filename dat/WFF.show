@@ -1,0 +1,22 @@
+
+
+ The following conventions govern typing of formulas.
+ 
+ (a)   Variables are any (upper or lower case) letters other 
+       than those (such as 'o' and 'v') used as connectives.
+       't', 'f', 'T' and 'F' are sentential constants.
+ 
+ (b)   Parentheses are as normal, with the features that
+       connectives of smaller scope bind more tightly than 
+       those of larger scope, and that except as scope and 
+       parentheses dictate, association is to the left.
+ 
+       Unary connectives have minimal scope.  The binary ones
+       in order of increasing scope are  o  &  v  -> followed
+       by user-defined ones. The scope order may be changed.
+
+       A period may replace a left parenthesis whose right 
+       mate is as far to the right as is reasonable.
+
+ (c)   Spaces are ignored.  RETURN terminates the formula.
+

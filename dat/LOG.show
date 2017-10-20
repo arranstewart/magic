@@ -1,0 +1,21 @@
+ Axioms for the stronger logics are as follows:
+
+     EW  is  TW   plus   ((A -> A) -> B) -> B
+ 
+      C  is  TW   plus   A -> ((A -> B) -> B)
+ 
+      T  is  TW   plus   (A -> (A -> B)) -> (A -> B)
+
+                  and    (A -> ~A) -> ~A
+ 
+      E  is  T    plus   ((A -> A) -> B) -> B 
+
+      R  is  C    plus   (A -> (A -> B)) -> (A -> B)
+
+     CK  is  C    plus   A -> (B -> A)
+
+     S4  is  E    plus   A -> (B -> B)
+
+ Axiomatisations of fragments of these logics result by 
+ selecting the axioms and rules which explicitly mention 
+ the appropriate connectives. 
